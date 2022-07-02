@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display:flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    height: 100px;
+    background-color: #ff0000
+}
+.logo {
+
+}
+.menu {
+    
+}

@@ -1,3 +1,6 @@
+* {
+    font-family: Arial;
+}
 body {
     margin: 0;
     padding: 0;
@@ -41,10 +44,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: #727272;
-    font-family: Arial, 
 }
-
-  /*COM PROBLEMA SA PORRA*/
 
 nav .active a,
  nav a:hover {
@@ -80,15 +80,50 @@ nav .active a,
 .banner_headline h2 {
     color: #ffffff;
     font-size: 21px;
-    text-shadow: 0px 1px 0px #555555;
+    text-shadow: 0px 1px 1px #555555;
     margin: 0;
     padding: 0;
     max-width: 350px;
     margin-top: 30px;
 }
 .banner_options {
- flex: 1;
+ display: flex;
  height: 210px;
-}
+  }
 
+ .banner1,
+ .banner2,
+ .banner3 {
+ flex: 1;
+ padding: 20px;
+ } 
+ .banner1{
+    background-color: #39aae1;
+ }
+ .banner2{
+    background-color: #0079c7 ;
+ }
+ .banner3{
+    background-color: #2b4c99;
+ }
 
+ .banner_title {
+    font-size: 21px;
+    color: #ffff;  
+ }
+ 
+ .banner_desc {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-top: 20px;
+    color: #ffff;
+ }
+
+ .banner_options a {
+    display: inline-block;
+    border: 1px solid #ffff;
+    padding: 5px;
+    color: #ffff;
+    font-size: 13px;
+    text-decoration: none;
+ }

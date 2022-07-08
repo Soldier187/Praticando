@@ -121,7 +121,7 @@ nav .active a,
  }
 
  .banner_options a{
-    display: inlin  e-block;
+    display: inline block;
     border: 1px solid #ffff;
     padding: 5px;
     color: #ffff;
@@ -130,15 +130,15 @@ nav .active a,
  }
 
  #geral{
- justify-content: flex;
-display: flex; }
+display: flex;
+justify-content:center ; }
 
 #geral section{
     flex: 2;}
 
-#geral aside{
-    flex: 1;
-} 
+#geral aside {
+   flex: 1; 
+}
 
 .widget_title{
     margin-top: 30px;
